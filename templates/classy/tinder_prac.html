@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinder Practice</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{% static 'classy/css/tinder_style.css' %}" />
+</head>
+<body>
+    <div class="title">
+        <h2>Tinder Practice</h2>
+    </div>
+
+    <div class="cube pers250">
+          <div class="card first"></div>
+          <div class="card second"></div>
+          <div class="card third"></div>
+          <div class="card forth"></div>
+    </div>
+
+    <div class="action">
+          <button class="reject"><i class="fa fa-times" aria-hidden="true"></i></button>
+          <button class="accept"><i class="fa fa-check" aria-hidden="true"></i></button>
+    </div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="{% static 'classy/js/tinder_script.js' %}"></script>
+</body>
+</html>

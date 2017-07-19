@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse('<p>classy there</p>')
+
+def tinder(request):
+    return render(request, 'classy/tinder_prac.html', {})
