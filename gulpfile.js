@@ -14,7 +14,7 @@ gulp.task("sass", function() {
 });
 
 gulp.task("less", function() {
-  return gulp.src("static/classy/less/**/*.less")
+  return gulp.src("static/classy/less/style.less")
     .pipe(less())
     .pipe(gulp.dest("static/classy/css"))
 });
