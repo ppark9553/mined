@@ -1,0 +1,35 @@
+{
+  "name": "mined",
+  "version": "1.0.0",
+  "description": "the quantitative trading engine behind keystone investments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppark9553/mined.git"
+  },
+  "keywords": [
+    "mined",
+    "keystone"
+  ],
+  "author": "mined",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppark9553/mined/issues"
+  },
+  "homepage": "https://github.com/ppark9553/mined#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^2.0.0"
+  }
+}
